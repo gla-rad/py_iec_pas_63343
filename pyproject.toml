@@ -17,3 +17,11 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.dev-dependencies]
+spyder = [
+    "spyder-kernels==2.5.*",
+]
+dev = [
+    "-e file:///${PROJECT_ROOT}/../py_iec_61162#egg=iec-61162",
+]
