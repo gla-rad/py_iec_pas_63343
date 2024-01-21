@@ -1,0 +1,19 @@
+[project]
+name = "iec_pas_63343"
+version = "0.1.0"
+description = "A Python package that implements elements of the IEC PAS 63343 standard: Maritime navigation and radiocommunication equipment and systems - VHF data exchange system - Requirements and methods of testing for stations including ASM functionality."
+authors = [
+    {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
