@@ -1,12 +1,12 @@
 [project]
 name = "iec_pas_63343"
-version = "0.1.0"
-description = "A Python package that implements elements of the IEC PAS 63343 standard: Maritime navigation and radiocommunication equipment and systems - VHF data exchange system - Requirements and methods of testing for stations including ASM functionality."
+version = "0.2.0"
+description = "A Python package that implements elements of the IEC PAS 63343 standard, 'Maritime navigation and radiocommunication equipment and systems - VHF data exchange system - Requirements and methods of testing for stations including ASM functionality'."
 authors = [
     {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
 ]
 dependencies = [
-    "iec-61162 @ git+https://github.com/jan-safar/py_iec_61162.git@v0.1.0",
+    "iec-61162 @ git+https://github.com/gla-rad/py_iec_61162.git@v0.2.0",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
