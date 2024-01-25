@@ -5,7 +5,7 @@
 groups = ["default", "dev", "spyder", "testing"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:ce3b97a35a8b9b543875f622321d63c7f18dae113edc8f255eecac6e8beec232"
+content_hash = "sha256:3a7ab68a36da6f76d36c561db4ca0264d070282f2931097c8c7156fd9580a7c9"
 
 [[package]]
 name = "appnope"
@@ -220,12 +220,12 @@ files = [
 
 [[package]]
 name = "iec-61162"
-version = "0.1.0"
+version = "0.2.0"
 requires_python = ">=3.11"
-git = "https://github.com/jan-safar/py_iec_61162.git"
-ref = "v0.1.0"
-revision = "e615086de006ec315beb6176d84064b4f1042ea0"
-summary = "A python package implementing parts of the IEC 61162 series of standards: 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'."
+git = "https://github.com/gla-rad/py_iec_61162.git"
+ref = "v0.2.0"
+revision = "9a0edd2364086d1aa3618ca06652c1c6171bccd8"
+summary = "A python package that implements parts of the IEC 61162 series of standards, 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'."
 groups = ["default"]
 dependencies = [
     "bitstring>=4.1.4",
