@@ -3,7 +3,7 @@
 VDES ASM Sentences Module.
 
 This module contains classes and functions for representing, generating [and
-parsing] presentation interface sentences compliand with the draft
+parsing] presentation interface sentences compliant with the draft
 IEC PAS 63343, dated Oct 2020.
 
 Created on Thu Dec  2 16:59:04 2021

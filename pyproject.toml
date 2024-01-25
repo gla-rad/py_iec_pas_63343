@@ -5,7 +5,9 @@ description = "A Python package that implements elements of the IEC PAS 63343 st
 authors = [
     {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
 ]
-dependencies = []
+dependencies = [
+    "iec-61162 @ git+https://github.com/jan-safar/py_iec_61162.git@v0.1.0",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "Apache-2.0"}
@@ -23,5 +25,4 @@ spyder = [
     "spyder-kernels==2.5.*",
 ]
 dev = [
-    "-e file:///${PROJECT_ROOT}/../py_iec_61162#egg=iec-61162",
 ]
